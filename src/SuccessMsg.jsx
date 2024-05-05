@@ -5,7 +5,7 @@ const SuccessMsg = () => {
   const navigate = useNavigate();
 
   const handleDismiss = () => {
-    navigate("/");
+    navigate("/Newsletter-sign-up/");
   };
 
   return (
