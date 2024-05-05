@@ -1,9 +1,12 @@
 {
+  "homepage": "https://rohanvron.github.io/Newsletter-sign-up/",
   "name": "newslettersignup",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build:css": "postcss src/index.css -o src/output.css",
     "dev": "vite",
     "build": "vite build",
